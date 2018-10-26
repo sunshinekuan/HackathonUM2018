@@ -1,25 +1,36 @@
 .grid-x{
-    border:3px solid yellow;
+    /* border:3px solid yellow; */
+    margin-bottom:20px;
 }
 
 .cell{
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 
 body {font-family: Verdana, sans-serif; margin:0}
+
 * {box-sizing: border-box}
+
 img {vertical-align: middle;}
 
+header{
+  height: auto;
+}
 
-/* Here use to header */
+/*------------ Here use to header */
+
+.all_header{
+  margin-bottom:0px;
+}
+
 
 #nav-button{
     position: absolute;
     padding:15px;
 
     top:0px;
-    left:0px;
+    right:0px;
 }
 
 #header-nav h4{
@@ -176,7 +187,19 @@ img {vertical-align: middle;}
 }
 
 
-/* home-news */
+/* home nav-bar -------------*/
+
+#header-sub-nav div{
+  text-align: center;
+  padding:10px;
+  border-top:1px solid #333;
+}
+
+#header-sub-nav{
+  display:none;
+}
+
+/*  */
 
 
 
