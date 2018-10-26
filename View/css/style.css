@@ -286,8 +286,55 @@ header{
   border-radius: 15px;
 }
 
-
-
-.food-detail p{
-  display:block;
+.food-detail-content{
+  margin:30px;
 }
+
+.food-detail-time{
+  text-align:right;
+}
+
+.food-detail-topic{
+  font-size:1.5em;
+}
+
+.food-detail-star{
+}
+
+/* food star demo */
+
+.setgrade .grade span {
+  margin-left: 15px;
+  line-height: 30px;
+}
+.setgrade .star {
+  width: 100%;
+  height: 45%;
+}
+.setgrade ul {
+  height: 70%;
+  padding: 0;
+  margin:0px;
+}
+.setgrade ul li {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background: url('https://img-blog.csdn.net/20180118204012724?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvYmVsb3ZlX2x1Y3k=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast') no-repeat;
+}
+.setgrade ul li a {
+  height: 20px;
+  width: 10px;
+  display: inline-block;
+  float: left;
+}
+.setgrade .sure {
+  width: 100%;
+  height: 30%;
+}
+.setgrade .sure button {
+  margin-right: 10px;
+  float: right;
+}
+
+/* food star demo */
