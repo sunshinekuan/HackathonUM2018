@@ -199,6 +199,11 @@ header{
 
 }
 
+#header-sub-nav a:nth-child(3){
+  border-bottom:1px solid #333;
+}
+
+
 #header-sub-nav a:hover{
   background:black;
   color:white;
@@ -208,6 +213,22 @@ header{
 #header-sub-nav{
   display:none;
 }
+
+/* home new */
+.home-news{
+  width:90%;
+}
+
+
+.home-news .news-content{
+  width:95%;
+  border:1px solid #333;
+  box-shadow: 2px 2px 2px #333;
+
+  padding:10px;
+  margin:0px 2%;
+}
+
 
 /*--------------------------------canteen page css -------------------------  */
 
@@ -241,10 +262,23 @@ header{
 
 /* canteen container*/
 
-.canteen-nav h5{
-  text-align:center;
+.canteen-nav{
+  padding:0px 45px;
+
 }
 
+.canteen-nav h5{
+  text-align:center;
+  cursor: pointer;
+}
+
+.canteen-nav h5:hover{
+  border-bottom:2px solid #333;
+}
+
+.canteen-nav-bgc{
+  border-bottom:2px solid #333;
+}
 
 
 /* canteen-time-page  */
@@ -256,7 +290,9 @@ header{
   
   margin-bottom:20px;
 
-  display: none;/*time-data-show-controller*/
+  overflow: hidden;
+
+/*time-data-show-controller*/
 }
 
 
@@ -298,7 +334,8 @@ header{
   font-size:1.5em;
 }
 
-.food-detail-star{
+#canteen-day-page{
+  display:none;
 }
 
 /* food star demo */

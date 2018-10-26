@@ -1,4 +1,7 @@
 menu = 0;
+
+canteen_page = 1
+
 function navController(){
     if(menu == 1){
         menu = 0;
@@ -35,3 +38,33 @@ function halfStar(x) {
     document.getElementById('getgrade').innerHTML = parseInt(x)+1+'.0';
 }
 
+function canteenSelectPage(canteen_page){
+
+    if(canteen_page == 1){
+        document.getElementById('canteen-time-page').style.display="block";
+        document.getElementById('canteen-day-page').style.display="none";
+        document.getElementById('canteen-all-page').style.display="none";
+        document.getElementById('canteen-time').className="canteen-nav-bgc";
+        document.getElementById('canteen-day').className="canteen-nav-bg";
+        document.getElementById('canteen-all').className="canteen-nav-bg";
+    }
+    else if(canteen_page == 2){
+        document.getElementById('canteen-time-page').style.display="none";
+        document.getElementById('canteen-day-page').style.display="block";
+        document.getElementById('canteen-all-page').style.display="none";
+        document.getElementById('canteen-time').className="canteen-nav-bg";
+        document.getElementById('canteen-day').className="canteen-nav-bgc";
+        document.getElementById('canteen-all').className="canteen-nav-bg";
+    }
+    else if(canteen_page == 3){
+        document.getElementById('canteen-time-page').style.display="none";
+        document.getElementById('canteen-day-page').style.display="none";
+        document.getElementById('canteen-all-page').style.display="block";
+        document.getElementById('canteen-time').className="canteen-nav-bg";
+        document.getElementById('canteen-day').className="canteen-nav-bg";
+        document.getElementById('canteen-all').className="canteen-nav-bgc";
+    }
+
+
+
+}

@@ -25,25 +25,25 @@
                         <div class="nav-item"></div>
                         <div class="nav-item"></div>
                     </a>
-                    <h4>馬萬褀羅柏心書院</h2>
+                    <h4>馬萬褀羅柏心書院</h4>
                 </div>
                 <div class="cell" id="header-sub-nav">
                     <a href="http://localhost/hackathon/View/canteen.php">飯堂</a>
-                    <a href="http://localhost/hackathon/View/commuity.php">社區</a>
+                    <a href="http://localhost/hackathon/View/community.php">社區</a>
                     <a href="http://localhost/hackathon/View/calendar.php">假期</a>
                 </div>
             </div>    
         </header>
 
-        <div class="grid-x" id="canteen-container">
-            <div class="cell small-4 canteen-nav"  id="canteen-time">
-                <h5>高峰時間</h5>
+        <div class="grid-x " id="canteen-container">
+            <div class="cell small-4 canteen-nav" >
+                <h5 id="canteen-time" onclick="canteenSelectPage(1)">高峰時間</h5>
             </div>
-            <div class="cell small-4 canteen-nav"  id="canteen-day">
-                <h5>當日菜單</h5>
+            <div class="cell small-4 canteen-nav"  >
+                <h5 id="canteen-day" onclick="canteenSelectPage(2)">當日菜單</h5>
             </div>
-            <div class="cell small-4 canteen-nav"  id="canteen-all">
-                <h5>所有菜單</h5>
+            <div class="cell small-4 canteen-nav" >
+                <h5 id="canteen-all" onclick="canteenSelectPage(3)">所有菜單</h5>
             </div>
 
 
@@ -51,11 +51,11 @@
             <div class="cell" id="canteen-time-page">
                 <div class="grid-x">
                     <div class="cell canteen-time-data" >
-                    
+                        <img src="http://localhost/hackathon/View/image/canteen/bar-chart.png" alt="">
                     </div>
 
                     <div class="cell canteen-time-data">
-                        
+                        <img src="http://localhost/hackathon/View/image/canteen/bar-chart.png" alt="">
                     </div>
                 </div>
 
@@ -74,14 +74,15 @@
                             </div>
                             <div class="cell small-7">
                                 <div class="grid-x food-detail-content">
-                                    <div class="cell food-detail-time">time</div>
+                                    <div class="cell food-detail-time">7:30-10:00</div>
                                     <div class="cell food-detail-topic">topic</div>
                                     <div class="cell food-detail-star">
 
                                     <!-- star test open -->
                                     <div class="setgrade">  
                                         <div class="grade">
-                                            <span id="getgrade">0</span>
+                                            <span style="margin:0px;">總評</span>
+                                            <span style="margin:0px;" id="getgrade">0</span>
                                             <span style="margin:0px;">分</span>
                                         </div>
                                         <div class="star">
@@ -126,14 +127,15 @@
                             </div>
                             <div class="cell small-7">
                                 <div class="grid-x food-detail-content">
-                                    <div class="cell food-detail-time">time</div>
+                                    <div class="cell food-detail-time">7:30-10:00</div>
                                     <div class="cell food-detail-topic">topic</div>
                                     <div class="cell food-detail-star">
 
                                     <!-- star test open -->
                                     <div class="setgrade">  
                                         <div class="grade">
-                                            <span id="getgrade">0</span>
+                                            <span style="margin:0px;">總評</span>
+                                            <span style="margin:0px;" id="getgrade">0</span>
                                             <span style="margin:0px;">分</span>
                                         </div>
                                         <div class="star">
@@ -173,7 +175,6 @@
             <div class="cell" id="canteen-all-page">
 
                 <div class="grid-x">
-
 
                 </div>
 
