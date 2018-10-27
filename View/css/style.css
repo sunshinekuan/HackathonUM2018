@@ -440,6 +440,7 @@ header{
 
   right:30px;
   bottom:30px;
+  cursor: pointer;
 }
 
 
@@ -528,6 +529,7 @@ header{
 /* poster content page -> detail */
 
 #community-today-page-content{
+  position: relative;
   background:white;
 
   border-radius:15px; 
@@ -535,7 +537,7 @@ header{
 
   width:95%;
   margin:2%;
-  padding-top:40px;
+  padding-top:60px;
 }
 
 
@@ -552,6 +554,7 @@ header{
 }
 
 .community-post-detail h5{
+  
   font-size: 1.6em;
 }
 
@@ -561,13 +564,14 @@ header{
   top:20px;
   right:20px;
   color:#717171;
+  
 }
 
 
 .community-post-reply{
   padding:20px;
 
-  margin-bottom:15px;
+  margin:15px 0px;
   box-shadow: 1px 1px 2px lightgray;
 }
 
@@ -576,3 +580,54 @@ header{
 
 }
 
+.community-post-back{
+  width:20px;
+
+  position: absolute;
+  top:20px;
+  left:20px;
+}
+
+.community-add-button{
+  width:60px;
+  position: fixed;
+
+  right:20px;
+  bottom:20px;
+  cursor: pointer;
+}
+
+
+
+#community-today-page-content{
+  margin-top:0px;
+  display:none;
+}
+
+
+#community-hot-page .community-post{
+  background-color: white;
+  border-radius: 15px;
+
+  width:95%;
+  margin:2%;
+
+}
+
+#community-hot-page .community-post:active{
+  position: relative;
+
+  padding:25px;
+
+  background:black;
+  color:white;
+}
+
+#community-hot-page .community-post:hover{
+  position: relative;
+
+  padding:25px;
+
+  background:black;
+  color:white;
+}

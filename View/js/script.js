@@ -96,3 +96,36 @@ function communitySelectPage(community_page){
     }
 
 }
+
+function communityTodayPagePost1(community_page_post){
+
+    if(community_page_post == 1){
+        document.getElementById('community-all-nav').style.display="none";
+        document.getElementById('community-today-page').style.display="none";
+        document.getElementById('community-today-page-content').style.display="block";
+
+
+    }
+    else if(community_page_post == 0){
+        document.getElementById('community-all-nav').style.display="block";
+        document.getElementById('community-today-page').style.display="block";
+        document.getElementById('community-today-page-content').style.display="none";
+    }
+}
+
+function communityHotPagePost1(community_page_post){
+
+    if(community_page_post == 1){
+        document.getElementById('community-all-nav').style.display="none";
+        document.getElementById('community-hot-page').style.display="none";
+        document.getElementById('community-today-page-content').style.display="block";
+
+
+    }
+    else if(community_page_post == 0){
+        document.getElementById('community-all-nav').style.display="block";
+        document.getElementById('community-hot-page').style.display="block";
+        document.getElementById('community-today-page-content').style.display="none";
+    }
+}
+
