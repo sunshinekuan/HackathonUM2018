@@ -24,9 +24,9 @@
                 </div>
                 <div class="cell" id="header-sub-nav">
                     <a href="http://localhost/hackathon/View/home.php">主頁</a>
-                    <a href="http://localhost/hackathon/View/canteen.php">飯堂</a>
-                    <a href="http://localhost/hackathon/View/community.php">社區</a>
-                    <a href="http://localhost/hackathon/View/calendar.php">假期</a>
+                    <a href="http://localhost/hackathon/View/canteen.php">書院飯堂</a>
+                    <a href="http://localhost/hackathon/View/community.php">書院社區</a>
+                    <a href="http://localhost/hackathon/View/calendar.php">重要日期</a>
                 </div>
             </div>
         </header>

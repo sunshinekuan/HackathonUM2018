@@ -12,7 +12,7 @@
         <script src="js/script.js"></script>
         
     </head>
-    <body>
+    <body style="background-color:#F7F7F7">
 
         <header>
             <div class="grid-x all_header">
@@ -26,13 +26,13 @@
                         <div class="nav-item"></div>
                         <div class="nav-item"></div>
                     </a>
-                    <h4>馬萬褀羅柏心書院</h4>
+                    <h4>書院社區</h4>
                 </div>
                 <div class="cell" id="header-sub-nav">
                     <a href="http://localhost/hackathon/View/home.php">主頁</a>
-                    <a href="http://localhost/hackathon/View/canteen.php">飯堂</a>
-                    <a href="http://localhost/hackathon/View/community.php">社區</a>
-                    <a href="http://localhost/hackathon/View/calendar.php">假期</a>
+                    <a href="http://localhost/hackathon/View/canteen.php">書院飯堂</a>
+                    <a href="http://localhost/hackathon/View/community.php">書院社區</a>
+                    <a href="http://localhost/hackathon/View/calendar.php">重要日期</a>
                 </div>
             </div>    
         </header>
@@ -55,8 +55,69 @@
 
 
 
-            <div class="cell " id="community-today-page">
-                today
+            <div class="cell " id="community-today-page" style="display:none">
+                <div class="grid-x">
+
+                    <a class="cell community-post">
+                        <h5>Fonts , Mockups & Templates</h5>
+                        <div class="community-post-time">10:30 am</div>
+                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <div class="community-post-self">
+                            星
+                        </div>
+                    </a>
+
+                    <a class="cell community-post">
+                        <h5>Scoored his very fast goal</h5>
+                        <div class="community-post-time">9:30 am</div>
+                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <div class="community-post-self">
+                            星
+                        </div>
+                    </a>
+
+                    <a class="cell community-post">
+                        <h5>Finished the part of UX</h5>
+                        <div class="community-post-time">14:30 am</div>
+                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <div class="community-post-self">
+                            星
+                        </div>
+                    </a>
+
+                    <a class="cell community-post">
+                        <h5>Fonts , Mockups & Templates</h5>
+                        <div class="community-post-time">19:30 am</div>
+                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <div class="community-post-self">
+                            星
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="cell" id="community-today-page-content">
+               <div class="cell community-post-detail">
+                    <h5>Fonts , Mockups & Templates</h5>
+                    <div class="community-post-content-time">10:30 am</div>
+                    <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                    <a href="">Read more</a>
+                </div>
+                <div class="cell community-post-reply">
+                    <h5>reply-name</h5>
+                    <div class="community-post-detail-time">12:30 am</div>
+                    <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                </div>
+                <div class="cell community-post-reply">
+                    <h5>reply-name</h5>
+                    <div class="community-post-detail-time">12:30 am</div>
+                    <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                </div>
+                <div class="cell community-post-reply">
+                    <h5>reply-name</h5>
+                    <div class="community-post-detail-time">12:30 am</div>
+                    <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                </div>
             </div>
 
 

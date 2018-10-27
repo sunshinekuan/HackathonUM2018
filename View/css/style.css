@@ -473,3 +473,106 @@ header{
 
 
 
+/* community post */
+#community-today-page .community-post{
+  background-color: white;
+  border-radius: 15px;
+
+  width:95%;
+  margin:2%;
+
+}
+
+.community-post{
+  position: relative;
+
+  padding:25px;
+
+  color:black;
+}
+
+#community-today-page .community-post:active{
+  position: relative;
+
+  padding:25px;
+
+  background:black;
+  color:white;
+}
+
+#community-today-page .community-post:hover{
+  position: relative;
+
+  padding:25px;
+
+  background:black;
+  color:white;
+}
+
+
+.community-post-time{
+  position: absolute;
+
+  right:20px;
+  top:20px;
+}
+
+.community-post-self{
+  position: absolute;
+  right:20px;
+  bottom:15px;
+
+
+}
+
+/* poster content page -> detail */
+
+#community-today-page-content{
+  background:white;
+
+  border-radius:15px; 
+  padding:30px;
+
+  width:95%;
+  margin:2%;
+  padding-top:40px;
+}
+
+
+#community-today-page-content,.community-post-reply{
+  position: relative;
+}
+
+.community-post-content-time{
+  position: absolute;
+
+  top:10px;
+  right:20px;
+  color:#717171;
+}
+
+.community-post-detail h5{
+  font-size: 1.6em;
+}
+
+.community-post-detail-time {
+  position: absolute;
+
+  top:20px;
+  right:20px;
+  color:#717171;
+}
+
+
+.community-post-reply{
+  padding:20px;
+
+  margin-bottom:15px;
+  box-shadow: 1px 1px 2px lightgray;
+}
+
+.community-post-reply h5{
+  font-size:1.2em;
+
+}
+
