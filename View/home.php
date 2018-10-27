@@ -37,21 +37,33 @@
                 <div class="slideshow-container">
 
                     <div class="mySlides fade">
-                        <div class="numbertext">1 / 3</div>
-                        <img src="image/home/01.jpg" alt="01.jpg" style="width:100%">
-                        <div class="text">Here is the even one topic</div>
+                        <div class="numbertext">1 / 5</div>
+                        <img src="image/home/p1.jpg" alt="p1.jpg" style="width:100%">
+                        <div class="text">馬萬祺羅柏心書院午餐講座</div>
                     </div>
                     
                     <div class="mySlides fade">
-                        <div class="numbertext">2 / 3</div>
-                        <img src="image/home/02.jpg" alt="02.jpg" style="width:100%">
-                        <div class="text">Here is the even two topic</div>
+                        <div class="numbertext">2 / 5</div>
+                        <img src="image/home/p2.jpg" alt="p2.jpg" style="width:100%">
+                        <div class="text">感謝匾揭幕禮</div>
                     </div>
                     
                     <div class="mySlides fade">
-                        <div class="numbertext">3 / 3</div>
-                        <img src="image/home/03.jpg" alt="03.jpg" style="width:100%">
-                        <div class="text">Here is the even three topic</div>
+                        <div class="numbertext">3 / 5</div>
+                        <img src="image/home/p3.jpg" alt="p3.jpg" style="width:100%">
+                        <div class="text">行業面面睇講座系列 – 手搖茶飲業</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="image/home/p4.jpg" alt="p4.jpg" style="width:100%">
+                        <div class="text">馬萬祺羅柏心書院午餐講座:世界語言</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="image/home/p5.jpg" alt="p5.jpg" style="width:100%">
+                        <div class="text">馬萬祺羅柏心書院午餐講座</div>
                     </div>
                     
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -62,7 +74,9 @@
                 <div class="slider-bottom">
                     <span class="dot" onclick="currentSlide(1)"></span> 
                     <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
                 </div>
             </div>
 
@@ -71,15 +85,15 @@
         <!-- home-button -->
         <div class="grid-x" id="home-button">
             <a class="cell small-4 button-content" href="http://localhost/hackathon/View/canteen.php">
-                <img src="image/home/eat.png" alt="">
+                <img src="image/home/breakfast.png" alt="">
                 <h4>飯堂</h4>
             </a>
             <a class="cell small-4 button-content" href="http://localhost/hackathon/View/community.php">
-                <img src="image/home/eat.png" alt="">
+                <img src="image/home/compose.png" alt="">
                 <h4>社區</h4>
             </a>
             <a class="cell small-4 button-content" href="http://localhost/hackathon/View/calendar.php">
-                <img src="image/home/eat.png" alt="">
+                <img src="image/home/calendar.png" alt="">
                 <h4>假期</h4>
             </a>
         </div>
@@ -93,24 +107,24 @@
                         <h5>最新消息</h5>
                     </div>
                     <div class="cell news-content">
-                        <a href="#">The first UM intellectual Hackathon</a>
-                        <span>2018-04-12</span>
-                        <span>N1,1st Floot, Center University of Macau</span>
+                        <a href="#">馬萬祺羅柏心書院活動精彩回顧:OXAM1021</a>
+                        <div>2018-10-21</div>
+                        <div>Macau, University of Macau</div>
                     </div>
                     <div class="cell news-content">
-                        <a href="#">The first UM intellectual Hackathon</a>
-                        <span>2018-04-12</span>
-                        <span>N1,1st Floot, Center University of Macau</span>
+                        <a href="#">MLC英語沙龍舉辦日本之夜</a>
+                        <div>2018-10-24</div>
+                        <div>W33,G032</div>
                     </div>
                     <div class="cell news-content">
-                        <a href="#">The first UM intellectual Hackathon</a>
-                        <span>2018-04-12</span>
-                        <span>N1,1st Floot, Center University of Macau</span>
+                        <a href="#">行業面面睇講座系列 – 旅遊KOL</a>
+                        <div>2018-10-22</div>
+                        <div>W33,Dining Hall</div>
                     </div>
                     <div class="cell news-content">
-                        <a href="#">The first UM intellectual Hackathon</a>
-                        <span>2018-04-12</span>
-                        <span>N1,1st Floot, Center University of Macau</span>
+                        <a href="#">行業面面睇講座系列 – 手搖茶飲業</a>
+                        <div>2018-10-19</div>
+                        <div>W33,Dining Hall</div>
                     </div>
                 </div>
             </div>
