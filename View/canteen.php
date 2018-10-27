@@ -139,7 +139,108 @@
                         </div>
                     </div>
 
+                    <div class="cell canteen-food-detail">
+                        <div class="grid-x">
+                            <div class="cell small-5">
+                                <div class="food-img">
+                                    <img src="image/home/eat.png" alt="">
+                                </div>
+                            </div>
+                            <div class="cell small-7">
+                                <div class="grid-x food-detail-content">
+                                    <div class="cell food-detail-time">7:30-10:00</div>
+                                    <div class="cell food-detail-topic">topic</div>
+                                    <div class="cell food-detail-star">
 
+                                    <!-- star test open -->
+                                    <div class="setgrade">  
+                                        <div class="grade">
+                                            <span style="margin:0px;">總評</span>
+                                            <span style="margin:0px;" id="getgrade">0</span>
+                                            <span style="margin:0px;">分</span>
+                                        </div>
+                                        <div class="star">
+                                            <ul id="star">
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(1)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(2)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(3)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(4)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(5)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(6)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(7)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(8)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(9)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(10)"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- star test end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell canteen-food-detail">
+                        <div class="grid-x">
+                            <div class="cell small-5">
+                                <div class="food-img">
+                                    <img src="image/home/eat.png" alt="">
+                                </div>
+                            </div>
+                            <div class="cell small-7">
+                                <div class="grid-x food-detail-content">
+                                    <div class="cell food-detail-time">7:30-10:00</div>
+                                    <div class="cell food-detail-topic">topic</div>
+                                    <div class="cell food-detail-star">
+
+                                    <!-- star test open -->
+                                    <div class="setgrade">  
+                                        <div class="grade">
+                                            <span style="margin:0px;">總評</span>
+                                            <span style="margin:0px;" id="getgrade">0</span>
+                                            <span style="margin:0px;">分</span>
+                                        </div>
+                                        <div class="star">
+                                            <ul id="star">
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(1)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(2)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(3)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(4)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(5)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(6)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(7)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(8)"></a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:void(0)" onclick="halfStar(9)"></a>
+                                                    <a href="javascript:void(0)" onclick="halfStar(10)"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- star test end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="cell canteen-food-detail">
                         <div class="grid-x">
                             <div class="cell small-5">
