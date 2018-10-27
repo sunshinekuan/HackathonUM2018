@@ -23,6 +23,7 @@
                     <h4>馬萬褀羅柏心書院</h4>
                 </div>
                 <div class="cell" id="header-sub-nav">
+                    <a href="http://localhost/hackathon/View/home.php">主頁</a>
                     <a href="http://localhost/hackathon/View/canteen.php">飯堂</a>
                     <a href="http://localhost/hackathon/View/community.php">社區</a>
                     <a href="http://localhost/hackathon/View/calendar.php">假期</a>
@@ -38,19 +39,19 @@
                     <div class="mySlides fade">
                         <div class="numbertext">1 / 3</div>
                         <img src="image/home/01.jpg" alt="01.jpg" style="width:100%">
-                        <div class="text">Caption Text</div>
+                        <div class="text">Here is the even one topic</div>
                     </div>
                     
                     <div class="mySlides fade">
                         <div class="numbertext">2 / 3</div>
                         <img src="image/home/02.jpg" alt="02.jpg" style="width:100%">
-                        <div class="text">Caption Two</div>
+                        <div class="text">Here is the even two topic</div>
                     </div>
                     
                     <div class="mySlides fade">
                         <div class="numbertext">3 / 3</div>
                         <img src="image/home/03.jpg" alt="03.jpg" style="width:100%">
-                        <div class="text">Caption Three</div>
+                        <div class="text">Here is the even three topic</div>
                     </div>
                     
                     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>

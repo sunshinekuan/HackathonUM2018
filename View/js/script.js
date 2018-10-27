@@ -1,6 +1,7 @@
 menu = 0;
 
-canteen_page = 1
+canteen_page = 1;
+community_page = 1;
 
 function navController(){
     if(menu == 1){
@@ -65,6 +66,33 @@ function canteenSelectPage(canteen_page){
         document.getElementById('canteen-all').className="canteen-nav-bgc";
     }
 
+}
 
+function communitySelectPage(community_page){
+
+    if(community_page == 1){
+        document.getElementById('community-today-page').style.display="block";
+        document.getElementById('community-hot-page').style.display="none";
+        document.getElementById('community-star-page').style.display="none";
+        document.getElementById('community-today').className="community-nav-bgc";
+        document.getElementById('community-hot').className="community-nav-bg";
+        document.getElementById('community-star').className="community-nav-bg";
+    }
+    else if(community_page == 2){
+        document.getElementById('community-today-page').style.display="none";
+        document.getElementById('community-hot-page').style.display="block";
+        document.getElementById('community-star-page').style.display="none";
+        document.getElementById('community-today').className="community-nav-bg";
+        document.getElementById('community-hot').className="community-nav-bgc";
+        document.getElementById('community-star').className="community-nav-bg";
+    }
+    else if(community_page == 3){
+        document.getElementById('community-today-page').style.display="none";
+        document.getElementById('community-hot-page').style.display="none";
+        document.getElementById('community-star-page').style.display="block";
+        document.getElementById('community-today').className="community-nav-bg";
+        document.getElementById('community-hot').className="community-nav-bg";
+        document.getElementById('community-star').className="community-nav-bgc";
+    }
 
 }

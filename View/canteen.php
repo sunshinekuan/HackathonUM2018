@@ -28,6 +28,7 @@
                     <h4>馬萬褀羅柏心書院</h4>
                 </div>
                 <div class="cell" id="header-sub-nav">
+                    <a href="http://localhost/hackathon/View/home.php">主頁</a>
                     <a href="http://localhost/hackathon/View/canteen.php">飯堂</a>
                     <a href="http://localhost/hackathon/View/community.php">社區</a>
                     <a href="http://localhost/hackathon/View/calendar.php">假期</a>
@@ -37,7 +38,7 @@
 
         <div class="grid-x " id="canteen-container">
             <div class="cell small-4 canteen-nav" >
-                <h5 id="canteen-time" onclick="canteenSelectPage(1)">高峰時間</h5>
+                <h5 class="canteen-nav-bgc" id="canteen-time" onclick="canteenSelectPage(1)">高峰時間</h5>
             </div>
             <div class="cell small-4 canteen-nav"  >
                 <h5 id="canteen-day" onclick="canteenSelectPage(2)">當日菜單</h5>

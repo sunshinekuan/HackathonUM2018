@@ -98,12 +98,15 @@ header{
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 19px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
   width: 100%;
   text-align: center;
+
+  background-color: #333;
+  opacity: .8;
 }
 
 /* Number text (1/3 etc) */
@@ -199,7 +202,7 @@ header{
 
 }
 
-#header-sub-nav a:nth-child(3){
+#header-sub-nav a:nth-child(4){
   border-bottom:1px solid #333;
 }
 
@@ -232,6 +235,10 @@ header{
 
 /*--------------------------------canteen page css -------------------------  */
 
+#canteen-container,#community-container{
+  margin-top:10px;
+}
+
 
 .nav-back-item{
   width:15px;
@@ -263,8 +270,7 @@ header{
 /* canteen container*/
 
 .canteen-nav{
-  padding:0px 45px;
-
+  padding:0px 30px;
 }
 
 .canteen-nav h5{
@@ -273,11 +279,15 @@ header{
 }
 
 .canteen-nav h5:hover{
-  border-bottom:2px solid #333;
+  border-bottom:2px solid #3E99FD;
+  color:#3E99FD;
+  font-weight: bold;
 }
 
 .canteen-nav-bgc{
-  border-bottom:2px solid #333;
+  border-bottom:2px solid #3E99FD;
+  color:#3E99FD;
+  font-weight: bold;
 }
 
 
@@ -375,3 +385,91 @@ header{
 }
 
 /* food star demo */
+
+
+
+
+
+
+
+
+/* -------------------- calendar Page --------------------- */
+
+.calendar-container{
+  padding:20px;
+}
+
+.calendar-holiday{
+  text-align:center;
+
+  color:#3E99FD;
+}
+.calendar-holiday h2{
+  text-align:center;
+  font-size:2.2em;
+  font-weight: bold;
+
+  margin:0px;
+}
+
+.calendar-container .page-topic{
+  padding:10px;
+  margin-top:10px;
+}
+
+.calendar-container .page-topic h5{
+  font-size:1.2em;
+}
+
+
+#calendar-container{
+  position: relative;
+}
+
+.self-date-content{
+  color:lightseagreen;
+
+  font-size: 1.7em;
+  padding:10px;
+}
+
+.calendar-add-button{
+  width:60px;
+
+  position: absolute;
+
+  right:30px;
+  bottom:30px;
+}
+
+
+/* ----------------- community Page--------------------- */
+
+.community-nav{
+  padding:0px 40px;
+}
+
+.community-nav h5{
+  text-align:center;
+  cursor: pointer;
+}
+
+.community-nav h5:hover{
+  border-bottom:2px solid #3E99FD;
+  color:#3E99FD;
+  font-weight: bold;
+  
+}
+
+.community-nav-bgc{
+  border-bottom:2px solid #3E99FD;
+  color:#3E99FD;
+  font-weight: bold;
+}
+
+#community-hot-page,#community-star-page{
+  display:none;
+}
+
+
+
