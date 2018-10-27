@@ -389,6 +389,47 @@ header{
 
 
 
+/* canteen data  part*/
+
+.canteen-data-topic{
+  text-align: center;
+
+  padding:10px;
+}
+.canteen-data-topic h5{
+  font-size:1.8em;
+}
+
+
+
+#mealdata{
+  display:none;
+}
+
+#calendardata{
+  display:none;
+}
+
+.get-data-button{
+  border:1px solid #333;
+  padding:5px;
+  
+  background: white
+  border-radius: 3px;
+  color:black;
+}
+
+
+.get-data-button:hover{
+  background: black;
+  color:white;
+  border-radius: 3px;
+}
+
+
+
+
+
 
 
 

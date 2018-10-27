@@ -13,6 +13,7 @@
         
     </head>
     <body>
+        <?php require(__DIR__.'/../getCalendar.php');?>
 
         <header>
             <div class="grid-x all_header">
@@ -45,9 +46,10 @@
                 今天<?php echo date("Y/m/d")?>日<?php echo date("l")?>為
                 </h5>
             </div>
+
             <div class="cell calendar-holiday">
-                <h2>聖誕節假期</h2>
-                <h5>Christmas Holiday</h5>
+                <h2>澳門大學假期</h2>
+                <h5>Whole day is a holiday</h5>
             </div>
             <div class="cell page-topic">
                 <h5>其它重要日期</h5>
@@ -91,11 +93,29 @@
 
 
 
+            <a class="get-data-button"  onclick=calendardatacontroller()>get data</a>
 
 
 
 
+            <div id="calendardata">
+                <?php
+                foreach($get_data['_embedded'] as $result_data) {
+                    echo $result_data['date'],'<br>';
 
+                    if($result_data['holiday'] == 'W'){
+                        echo "Whole day is a holiday",'<br>';
+                    }
+                    if($result_data['holiday'] == '1'){
+                        echo "Session 1, which stands for morning session is holiday",'<br>';
+                    }
+                    
+                    if($result_data['holiday'] == '2'){
+                        echo "Session 2, which stands for afternoon session is holiday",'<br>';
+                    }
+                }
+                ?>
+            </div>
 
 
 

@@ -13,6 +13,8 @@
         
     </head>
     <body>
+        <?php require(__DIR__.'/../getMeal.php');?>
+        
         <header>
             <div class="grid-x all_header">
                 <div class="cell" id="header-nav">
@@ -51,14 +53,33 @@
 
             <div class="cell" id="canteen-time-page">
                 <div class="grid-x">
+
+                    <div class="cell canteen-data-topic">
+                        <h5>晚餐時段</h5>
+                    </div>
+                    
+
+
                     <div class="cell canteen-time-data" >
                         <img src="http://localhost/hackathon/View/image/canteen/bar-chart.png" alt="">
                     </div>
-
+                    <div class="cell canteen-data-topic">
+                        <h5>上週今天時段</h5>
+                    </div>
                     <div class="cell canteen-time-data">
                         <img src="http://localhost/hackathon/View/image/canteen/bar-chart.png" alt="">
                     </div>
                 </div>
+
+
+            <a class="get-data-button" onclick="mealdatacontroller()">get data</a>
+            <div id="mealdata">
+                <?php
+                    foreach($get_data['_embedded'] as $result_data) {
+                        echo $result_data['consumeTime'], '<br>';
+                    }
+                ?>
+            </div>
 
 
             </div>
@@ -182,7 +203,6 @@
 
             </div>
         </div>
-
 
 
 

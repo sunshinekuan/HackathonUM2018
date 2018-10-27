@@ -1,7 +1,8 @@
 menu = 0;
-
+mealdata = 0;
 canteen_page = 1;
 community_page = 1;
+calendardata = 0;
 
 function navController(){
     if(menu == 1){
@@ -129,3 +130,30 @@ function communityHotPagePost1(community_page_post){
     }
 }
 
+
+
+function mealdatacontroller(){
+
+    if(mealdata == 0){
+        mealdata = 1;
+        document.getElementById('mealdata').style.display="block";
+        document.getElementById('community-today-page-content').style.display="none";
+    }else if(mealdata == 1){
+        mealdata = 0;
+        document.getElementById('mealdata').style.display="none";
+        document.getElementById('community-today-page-content').style.display="block";
+    }
+}
+
+function calendardatacontroller(){
+
+    if(calendardata == 0){
+        calendardata = 1;
+        document.getElementById('calendardata').style.display="block";
+        document.getElementById('community-today-page-content').style.display="none";
+    }else if(calendardata == 1){
+        calendardata = 0;
+        document.getElementById('calendardata').style.display="none";
+        document.getElementById('community-today-page-content').style.display="block";
+    }
+}
