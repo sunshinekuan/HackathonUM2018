@@ -177,7 +177,8 @@
             </div>
             
             <div class="cell" id="community-star-page">
-                star
+                <div style="margin:50px;">NULL</div>
+                
             </div>
 
         </div>
