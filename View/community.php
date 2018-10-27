@@ -65,27 +65,27 @@
                     <a class="cell community-post" onclick="communityTodayPagePost1(1)">
                         <h5>Fonts , Mockups & Templates</h5>
                         <div class="community-post-time">10:30 am</div>
-                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <span>The food taste good<span>
                         <div class="community-post-self">
-                            星
+                            <img src="image/canteen/star.png">
                         </div>
                     </a>
 
                     <a class="cell community-post" onclick="communityTodayPagePost1(1)">
                         <h5>Scoored his very fast goal</h5>
                         <div class="community-post-time">9:30 am</div>
-                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <span>The mid term is suck</span>
                         <div class="community-post-self">
-                            星
+                            <img src="image/canteen/star.png">
                         </div>
                     </a>
 
                     <a class="cell community-post" onclick="communityTodayPagePost1(1)">
                         <h5>Finished the part of UX</h5>
                         <div class="community-post-time">14:30 am</div>
-                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <span>Nice to meet you</span>
                         <div class="community-post-self">
-                            星
+                            <img src="image/canteen/star.png">
                         </div>
                     </a>
 
@@ -94,15 +94,15 @@
                         <div class="community-post-time">19:30 am</div>
                         <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
                         <div class="community-post-self">
-                            星
+                            <img src="image/canteen/star.png">
                         </div>
                     </a>
                     <a class="cell community-post" onclick="communityTodayPagePost1(1)">
                         <h5>Fonts , Mockups & Templates</h5>
                         <div class="community-post-time">19:30 am</div>
-                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <span>I love you~</span>
                         <div class="community-post-self">
-                            星
+                            <img src="image/canteen/star.png">
                         </div>
                     </a>
                 </div>
@@ -159,17 +159,17 @@
                     <a class="cell community-post" onclick="communityHotPagePost1(1)">
                         <h5>Fonts , Mockups & Templates</h5>
                         <div class="community-post-time">10:30 am</div>
-                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <span>The food taste good</span>
                         <div class="community-post-self">
-                            星
+                            <img src="image/canteen/star.png">
                         </div>
                     </a>
                     <a class="cell community-post" onclick="communityHotPagePost1(1)">
-                        <h5>Fonts , Mockups & Templates</h5>
+                        <h5>Scoored his very fast goal</h5>
                         <div class="community-post-time">10:30 am</div>
-                        <span>It’s Friday and time for some Free products!Here are the latest freebies to arrive on our sites....</span>
+                        <span>The mid term is suck</span>
                         <div class="community-post-self">
-                            星
+                            <img src="image/canteen/star.png">
                         </div>
                     </a>
                 </div>
@@ -177,7 +177,7 @@
             </div>
             
             <div class="cell" id="community-star-page">
-                <div style="margin:50px;">NULL</div>
+                <div style="margin:50px;">沒有收藏</div>
                 
             </div>
 
